@@ -1,10 +1,10 @@
 @extends ('master')
 
-@section ('page-title')
-<title>@lang('navi.title')</title>
-@endsection
-
 @section('content')
-<p>213</p>
-
+<div class="uk-inline">
+    <img src="https://getuikit.com/docs/images/photo.jpg" alt="">
+    <div class="uk-overlay uk-light uk-position-bottom">
+        <p>Default Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    </div>
+</div>
 @endsection
