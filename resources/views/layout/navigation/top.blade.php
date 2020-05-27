@@ -5,7 +5,7 @@
             style="z-index: 999">
             
             <a class="uk-navbar-item uk-logo" href="#">
-                <img src="https://bulma.io/images/bulma-logo.png" width="112" height="28">
+                <img src="{{asset('../image/icon/8H.png')}}" width="80" height="28">
             </a>
 
             <div class="uk-navbar-right">
@@ -18,13 +18,14 @@
                         </a>
                     
                         
-                        <div class="uk-navbar-dropdown" id="navbarDropdownContainer">
+                        <div class="uk-navbar-dropdown bg-opacity" id="navbarDropdownContainer">
                             <ul class="uk-nav uk-navbar-dropdown-nav">
-                                <li class="uk-nav-header"><a href="#">About us</a></li>
-                                <li class="uk-nav-header"><a href="#">Services</a></li>
-                                <li class="uk-nav-header"><a href="#">Insight</a></li>
-                                <li class="uk-nav-header"><a href="#">Partners</a></li>
-                                <li class="uk-nav-header"><a href="#">Contact us</a></li>
+                                <li class="uk-nav-divider"></li>
+                                <li class="uk-nav-header"><a href="#" class="has-text-white">About us</a></li>
+                                <li class="uk-nav-header"><a href="#" class="has-text-white">Services</a></li>
+                                <li class="uk-nav-header"><a href="#" class="has-text-white">Insight</a></li>
+                                <li class="uk-nav-header"><a href="#" class="has-text-white">Partners</a></li>
+                                <li class="uk-nav-header"><a href="#" class="has-text-white">Contact us</a></li>
                             </ul>
                         </div>
                     </li>
