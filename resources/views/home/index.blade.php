@@ -38,12 +38,12 @@
     </div>
 
 
-    {{-- Service Banner --}}
+    {{-- Service Banner WeChat store --}}
     <div class="uk-grid-collapse uk-width-1-1 uk-child-width-1-2@m" uk-height-viewport="offset-bottom: 75" uk-grid>
         
-        <div class="uk-width-1-2 uk-position-relative" style="background-color: black;">
+        <div class="uk-position-relative" style="background-color: black;">
             
-            <div class="uk-width-1-2 uk-overlay uk-overlay-defaul uk-light uk-position-small uk-position-top-left">
+            <div class="uk-overlay uk-overlay-defaul uk-light uk-position-small uk-position-top-left">
                 
                 <div style="padding: 1em">
                     <p class="is-size-5 has-text-white">OWN SALES SITE</p>
@@ -65,10 +65,65 @@
 
         </div>
 
-        <div class="wechat-store">
+        <div class="wechat-store-banner">
             
         </div>
     </div>
 
+
+    {{-- Service Banner JD/Tmall --}}
+    <div class="uk-grid-collapse uk-width-1-1 uk-child-width-1-2@m" uk-height-viewport="offset-bottom: 75" uk-grid>
+        
+        <div class="uk-position-relative" style="background-color: black;">
+            
+            <div class="uk-overlay uk-overlay-defaul uk-light uk-position-small uk-position-top-left">
+                
+                <div style="padding: 1em">
+                    <p class="is-size-5 has-text-white">OWN Marketplace store</p>
+                </div>
+
+                <div style="padding: 1em">
+                    <p class="is-size-3 has-text-white">
+                        Tmall store 
+                    </p>
+                    <p class="is-size-5 has-text-white">
+                        Own store on No. 1 marketplace in China
+                    </p>
+                </div>
+                
+            </div>
+
+        </div>
+
+        <div class="tmall-banner">
+            
+        </div>
+    </div>
+
+
+   {{-- Service Banner Cross-boarder--}}
+   <div class="uk-grid-collapse uk-width-1-1 uk-child-width-1-2@m" uk-height-viewport="offset-bottom: 75" uk-grid>
+        
+    <div class="uk-position-relative" style="background-color: black;">
+        
+        <div class="uk-overlay uk-overlay-defaul uk-light uk-position-small uk-position-top-left">
+
+            <div style="padding: 1em">
+                <p class="is-size-3 has-text-white">
+                    Cross boarder sales
+                </p>
+                <p class="is-size-5 has-text-white">
+                    Easy access presence and sales trial
+                </p>
+            </div>
+            
+        </div>
+
+    </div>
+
+    <div class="cross-boarder">
+        
+    </div>
+</div>
 </div>
 @endsection

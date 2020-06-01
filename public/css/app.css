@@ -12015,7 +12015,7 @@ label.panel-block:hover {
   background-image: url("/image/homepage/order-online-filter.jpg");
   background-repeat: no-repeat;
   background-origin: content-box;
-  background-position: center center;
+  background-position: center;
   background-size: 100%;
 }
 
@@ -12042,8 +12042,24 @@ label.panel-block:hover {
   cursor: pointer;
 }
 
-.wechat-store {
+.wechat-store-banner {
   background-image: url("/image/homepage/wechat-store.png");
+  background-repeat: no-repeat;
+  background-origin: content-box;
+  background-position: center;
+  background-size: 100%;
+}
+
+.tmall-banner {
+  background-image: url("/image/homepage/tmall.jpg");
+  background-repeat: no-repeat;
+  background-origin: content-box;
+  background-position: center;
+  background-size: 100%;
+}
+
+.cross-boarder {
+  background-image: url("/image/homepage/cross-boarder.jpg");
   background-repeat: no-repeat;
   background-origin: content-box;
   background-position: center;
