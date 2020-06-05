@@ -21,15 +21,15 @@ let navbarTitle = document.getElementById('navbarTitle')
 *    when user click 'MENU' toggle this text 
 */
 
-if(navbarBtnId){
-    navbarBtnId.addEventListener('click',function(e){
-        let navbarDropdownContainer = document.getElementById('navbarDropdownContainer').classList
-        if(navbarDropdownContainer.contains("uk-open")){
-            navbarTitle.textContent = 'menu'
-        }else{
-            navbarTitle.textContent = 'close'
-        }
-    })
+if (navbarBtnId) {
+  navbarBtnId.addEventListener('click', function (e) {
+    let navbarDropdownContainer = document.getElementById('navbarDropdownContainer').classList
+    if (navbarDropdownContainer.contains("uk-open")) {
+      navbarTitle.textContent = 'menu'
+    } else {
+      navbarTitle.textContent = 'close'
+    }
+  })
 }
 
 /* 
@@ -37,11 +37,11 @@ if(navbarBtnId){
 *    add third parameter 'true',this click event capture phase execution
 */
 
-document.addEventListener('click',function(e){
-    let navbarDropdownContainer = document.getElementById('navbarDropdownContainer').classList
-    if(navbarDropdownContainer.contains("uk-open")){
-        navbarTitle.textContent = 'close'
-    }else{
-        navbarTitle.textContent = 'menu'
-    }
-},true)
+document.addEventListener('click', function (e) {
+  let navbarDropdownContainer = document.getElementById('navbarDropdownContainer').classList
+  if (navbarDropdownContainer.contains("uk-open")) {
+    navbarTitle.textContent = 'close'
+  } else {
+    navbarTitle.textContent = 'menu'
+  }
+}, true)

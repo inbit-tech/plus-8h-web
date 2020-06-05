@@ -5,19 +5,25 @@
 <div class="uk-grid-collapse uk-width-1-1" uk-grid>
     
     {{-- Key Banner --}}
-    <div class="uk-grid-collapse 
-                uk-width-1-1 
-                uk-position-relative 
+    <div class="uk-width-1-1
+                key-banner-bg
+                uk-grid-collapse 
                 height-viewport-50 
-                key-banner-bg 
                 uk-background-cover
+                uk-position-relative 
                 uk-background-norepeat
                 uk-background-center-center" 
                 uk-grid>
             
-        <div class="uk-width-1-2 uk-overlay uk-overlay-defaul uk-light uk-position-medium uk-position-bottom-left homepage-keyBanner-text">
+        <div class="uk-light
+                    uk-overlay 
+                    uk-width-1-2 
+                    uk-overlay-defaul
+                    uk-position-bottom-left 
+                    homepage-keyBanner-text">
             <p class="uk-heading-medium">Your Sales team</p>
             <p class="uk-heading-medium">towards Chinese Consumers</p>
+
         </div>
 
     </div>
@@ -45,7 +51,10 @@
                 </p>
             </div> 
 
-            <div class="uk-overlay uk-overlay-defaul uk-light uk-position-bottom-left">
+            <div class="uk-light 
+                        uk-overlay 
+                        uk-overlay-defaul
+                        uk-position-bottom-left">
                 <a href="#" class="button-opacity-shadow">
                     <span class="is-size-4 has-text-white">See what we do</span>
                 </a>
@@ -63,11 +72,11 @@
                 uk-width-1-1
                 uk-card-default  
                 uk-grid-collapse 
-                uk-child-width-1-2@m" 
-                uk-height-viewport="offset-bottom: 75" uk-grid>
+                uk-child-width-1-2@m"
+                uk-grid>
         
         {{-- Right image container --}}
-        <div class="uk-height-1-1
+        <div class="
                     uk-flex-last@s 
                     uk-cover-container
                     uk-card-media-right">
@@ -77,17 +86,21 @@
                         uk-background-norepeat
                         uk-background-center-center">
             </div>
+            <canvas width="600" height="400"></canvas>
 
         </div>
 
         {{-- Left Text container--}}
-        <div class="uk-height-1-1
+        <div class="uk-flex
                     uk-background-secondary">
 
             {{-- Text --}}
-            <div class="uk-card-body">
+            <div class="uk-flex
+                        uk-card-body
+                        uk-flex-column
+                        uk-flex-center">
 
-                <div style="padding: 1em 0">
+                <div style="padding: 2em 0">
                     <p class="is-size-5 has-text-white">OWN SALES SITE</p>
                 </div>
                 <h3 class="is-size-3 has-text-white">WeChat Store</h3>
@@ -113,13 +126,11 @@
                 uk-card-default  
                 uk-grid-collapse 
                 uk-child-width-1-2@m" 
-                uk-height-viewport="offset-bottom: 75" uk-grid>
+                uk-grid>
         
         {{-- Right image container --}}
-        <div class="uk-height-1-1
-                    uk-flex-last@s 
-                    uk-cover-container
-                    uk-card-media-right">
+        <div class="uk-cover-container
+                    uk-card-media-left">
 
             {{-- background image --}}
             <div class="tmall-banner
@@ -128,15 +139,19 @@
                         uk-background-center-center">
                             
             </div>
+            <canvas width="600" height="400"></canvas>
 
         </div>
 
         {{-- Left Text container--}}
-        <div class="uk-height-1-1
+        <div class="uk-flex
                     uk-background-secondary">
 
             {{-- Text --}}
-            <div class="uk-card-body">
+            <div class="uk-flex
+                        uk-card-body
+                        uk-flex-column
+                        uk-flex-center">
 
                 <h3 class="is-size-3 has-text-white">
                     Tmall store
@@ -160,11 +175,10 @@
                 uk-card-default 
                 uk-grid-collapse 
                 uk-child-width-1-2@m" 
-                uk-height-viewport="offset-bottom: 75" uk-grid>
+                uk-grid>
         
         {{-- Right image container --}}
-        <div class="uk-height-1-1
-                    uk-flex-last@s
+        <div class="uk-flex-last@s
                     uk-cover-container
                     uk-card-media-right">
 
@@ -174,15 +188,19 @@
                         uk-background-norepeat
                         uk-background-center-center">
             </div>
+            <canvas width="600" height="400"></canvas>
 
         </div>
 
         {{-- Left Text container--}}
-        <div class="uk-height-1-1
+        <div class="uk-flex
                     uk-background-secondary">
 
             {{-- Text --}}
-            <div class="uk-card-body">
+            <div class="uk-flex
+                        uk-card-body
+                        uk-flex-column
+                        uk-flex-center">
 
                 <h3 class="is-size-3 has-text-white">
                     Cross boarder sales
