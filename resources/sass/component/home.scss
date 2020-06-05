@@ -1,0 +1,42 @@
+
+.key-banner-bg{
+    background-image: url('~/image/homepage/order-online-filter.jpg');
+    width: 100%;
+    height: 100%;
+}
+.height-viewport-50 {
+    height: 50vh;
+}
+
+.homepage-keyBanner-text {
+    max-width: 50%;
+}
+
+.homepage-center-banner-bg {
+    background-image: linear-gradient(45deg, #FF6400, #FFBE00);
+}
+
+.button-opacity-shadow {
+    padding: 1rem;
+    background-color: rgba(150, 250, 250, 0.1);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.wechat-store-banner{
+    background-image: url('~/image/homepage/wechat-store.png');
+    width: 100%;
+    height: 100%;
+}
+
+.tmall-banner{
+    background-image: url('~/image/homepage/tmall.jpg');
+    width: 100%;
+    height: 100%;
+}
+
+.cross-boarder{
+    background-image: url('~/image/homepage/cross-boarder.jpg');
+    width: 100%;
+    height: 100%;
+}
