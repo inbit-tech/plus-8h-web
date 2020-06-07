@@ -233,7 +233,7 @@
 
         <div class="uk-flex
                     uk-width-2-3@s
-                    uk-width-1-2@xl
+                    uk-width-2-5@xl
                     uk-flex-between">
 
             <div class="uk-flex 
