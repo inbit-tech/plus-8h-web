@@ -179,9 +179,10 @@
                     uk-flex-middle
                     uk-flex-center">
 
-            <img src="{{ asset('/image/about/founder-image.png') }}" 
+            <img src="{{ asset('/image/about/founder-image.jpeg') }}" 
                     alt="Founder image"
-                    class="founder-image">
+                    class="founder-image
+                           founder-image-border-000">
                     
         </div>
 
@@ -232,6 +233,7 @@
 
         <div class="uk-flex
                     uk-width-2-3@s
+                    uk-width-1-2@xl
                     uk-flex-between">
 
             <div class="uk-flex 
@@ -239,9 +241,10 @@
                         uk-flex-middle
                         uk-flex-center">
                     
-                <img src="{{ asset('/image/about/founder-image.png') }}" 
-                        alt="Founder image"
-                        class="founder-image">
+                <img src="{{ asset('/image/about/Simon-Westerlund.jpeg') }}" 
+                        alt="Partner & Executive"
+                        class="founder-image
+                               founder-image-border-000">
 
                 <div class="uk-flex 
                             uk-flex-column
@@ -262,9 +265,10 @@
                         uk-flex-middle
                         uk-flex-center">
                         
-                <img src="{{ asset('/image/about/founder-image.png') }}" 
-                        alt="Founder image"
-                        class="founder-image">
+                <img src="{{ asset('/image/about/Sarah-Chu.jpeg') }}" 
+                        alt="Partner & Executive"
+                        class="founder-image
+                               founder-image-border-fff">
 
                 <div class="uk-flex 
                             uk-flex-column

@@ -5,7 +5,7 @@
             style="z-index: 999">
             
             <a class="uk-navbar-item uk-logo" href="#">
-                <img src="{{asset('../image/icon/8H.png')}}" width="80" height="28">
+                <img src="{{asset('../image/icon/logo.png')}}" width="150">
             </a>
 
             <div class="uk-navbar-right">
