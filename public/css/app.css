@@ -12057,7 +12057,17 @@ label.panel-block:hover {
 }
 
 .founder-image {
-  width: 250px;
+  width: 200px;
+}
+
+.founder-image-border-000 {
+  border-radius: 50%;
+  box-shadow: 1px 1px 5px #000;
+}
+
+.founder-image-border-fff {
+  border-radius: 50%;
+  box-shadow: 1px 1px 5px #fff;
 }
 
 .yellow-background {
