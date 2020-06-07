@@ -6,23 +6,23 @@
     
     {{-- Key Banner --}}
     <div class="uk-width-1-1
-                key-banner-bg
                 uk-grid-collapse 
                 height-viewport-50 
                 uk-background-cover
                 uk-position-relative 
                 uk-background-norepeat
+                homepage-key-banner-bg
                 uk-background-center-center" 
                 uk-grid>
             
         <div class="uk-light
+                    max-width-50
                     uk-overlay 
                     uk-width-1-2 
                     uk-overlay-defaul
-                    uk-position-bottom-left 
-                    homepage-keyBanner-text">
-            <p class="uk-heading-medium">Your Sales team</p>
-            <p class="uk-heading-medium">towards Chinese Consumers</p>
+                    uk-position-bottom-left ">
+            <p class="uk-heading-medium uk-margin-remove">Your Sales team</p>
+            <p class="uk-heading-medium uk-margin-remove">towards Chinese Consumers</p>
 
         </div>
 
@@ -35,13 +35,13 @@
                 uk-width-1-1
                 uk-card-default  
                 uk-grid-collapse 
-                homepage-center-banner-bg" 
+                yellow-background" 
                 uk-height-viewport="offset-bottom: 75" uk-grid>
                 
         <div class="uk-card-body">     
 
             <div class="">
-                <h3 class="is-size-3 has-text-white">We are digital brand growers</h3>
+                <h3 class="is-size-3 has-text-white ">We are digital brand growers</h3>
                
                 <p class="is-size-5 has-text-white">
                     Cover the entire e-commerce supply chain 
